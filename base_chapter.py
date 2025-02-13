@@ -1,0 +1,2 @@
+class BaseChapter:
+    pass
