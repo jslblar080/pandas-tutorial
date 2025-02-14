@@ -5,8 +5,8 @@ from chapter.learn_series import LearnSeries
 class ChapterConfig:
 
     def __init__(self):
-        self.learn_series()
+        self.chapter()
 
     @staticmethod
-    def learn_series() -> BaseChapter:
+    def chapter() -> BaseChapter:
         return LearnSeries()

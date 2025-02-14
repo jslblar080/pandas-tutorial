@@ -6,7 +6,7 @@ from util.print import Print
 
 class LearnSeries(BaseChapter):
 
-    def __init__(self):
+    def play(self):
         print("Pandas version:", pd.__version__, '\n')
 
         ndarray = np.arange(100, 105)
