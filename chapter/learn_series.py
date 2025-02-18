@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+
 from base_chapter import BaseChapter
 from util.print import Print
 
