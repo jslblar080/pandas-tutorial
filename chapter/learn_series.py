@@ -6,6 +6,10 @@ from util.print import Print
 
 class LearnSeries(BaseChapter):
 
+    def __init__(self):
+        super(LearnSeries, self).__init__()
+        print("시리즈 학습\n")
+
     def play(self) -> None:
         print("Pandas version:", pd.__version__, '\n')
 

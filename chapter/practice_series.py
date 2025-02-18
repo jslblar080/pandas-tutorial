@@ -6,6 +6,10 @@ from base_chapter import BaseChapter
 
 class PracticeSeries(BaseChapter):
 
+    def __init__(self):
+        super(PracticeSeries, self).__init__()
+        print("시리즈 연습\n")
+
     def play(self) -> None:
         print(pd.Series(np.arange(3, 12, 2), dtype="float32"), '\n')
         """
